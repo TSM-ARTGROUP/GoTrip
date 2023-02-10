@@ -365,11 +365,14 @@ body {
     max-width: 565px;
 }
 
-.about-us__profile {
+.review__profile {
+    column-gap: 33px;
+}
+
+.profile{
     display: flex;
     align-items: center;
     padding-bottom: 60px;
-    column-gap: 33px;
 }
 
 .profile__img {
@@ -397,7 +400,7 @@ body {
     color: var(--secondary);
 }
 
-.about-us__desc {
+.review__desc {
     font-size: 22px;
     font-weight: 500;
     color: var(--secondary);
@@ -405,7 +408,7 @@ body {
     max-width: 491px;
 }
 
-.about-us__estimation {
+.review__estimation {
     display: flex;
 }
 
