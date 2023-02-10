@@ -344,3 +344,62 @@ body{
     display: flex;
 }
 /* /about-us */
+
+/* get-started */
+.get-started__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 115px;
+    margin-bottom: 65px;
+
+    height: 581px;
+    background: #FFFFFF;
+    border-radius: 60px;
+}
+.get-started__content{
+    height: 451px;
+    width: 1086px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("/img/get-started/get-started__background-img.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.get-started__title{
+    font-size: 45px;
+    font-weight: 500;
+
+    max-width: 519px;
+
+    padding-bottom: 30px;
+
+    text-align: center;
+
+}
+.get-started__desc {
+    font-size: 30px;
+    font-weight: 400;
+
+    color: var(--secondary);
+
+    max-width: 715px;
+
+    padding-bottom: 60px;
+}
+.get-started__btn {
+    padding: 25px 55px;
+    border-radius: 27px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* /get-started */
