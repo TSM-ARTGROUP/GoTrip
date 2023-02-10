@@ -48,7 +48,7 @@ body{
     
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/img/header__vector.svg);
+    background-image: url(/img/header/header__vector.svg);
 
 }
 .header__top{
@@ -282,3 +282,65 @@ body{
     height: 456px;
 }
 /* /slider */
+
+/* about-us */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.about-us__row {
+    display: flex;
+    column-gap: 68px;
+}
+.about-us__img {
+}
+.about-us__content {
+}
+.about-us__title {
+    font-size: 45px;
+    font-weight: 500;
+
+    padding-bottom: 35px;
+    max-width: 565px;
+}
+.about-us__profile {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 60px;
+    column-gap: 33px;
+}
+.profile__img {
+    width: 134px;
+    height: 134px;
+    background: #FFAA99;
+    border-radius: 71.5px;
+}
+.about-us__img-link{
+    width: 478px;
+    height: 537px;
+    border-radius: 35px;
+}
+.profile__name {
+    font-size: 33px;
+    font-weight: 500;
+}
+.profile__desc {
+    font-size: 25px;
+    font-weight: 400;
+
+    color: var(--secondary);
+}
+.about-us__desc {
+    font-size: 22px;
+    font-weight: 500;
+
+    color: var(--secondary);
+
+    padding-bottom: 30px;
+    max-width: 491px;
+}
+.about-us__estimation {
+    display: flex;
+}
+/* /about-us */
