@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пора в путишествие</title>
     <!-- STYLES -->
-        <!-- MAIN -->
-        <link rel="stylesheet" href="styles/main.css">
+    <!-- MAIN -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- OWLCAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <!-- JS -->
+    <!-- JQUARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <!-- OWLCAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        defer></script>
+    <!-- MAIN -->
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -21,7 +36,7 @@
                         <li><a href="#" class="highlight-animation  active">Home</a></li>
                         <li><a href="#" class="highlight-animation">Services</a></li>
                         <li><a href="#" class="highlight-animation">Pricing</a></li>
-                        <li><a href="#" class="highlight-animation">Contact</a></li>                        
+                        <li><a href="#" class="highlight-animation">Contact</a></li>
                     </ul>
                     <ul class="nav__login">
                         <li><a href="#" class="highlight-animation">Sign up</a></li>
@@ -33,9 +48,7 @@
                 <div class="header__content">
                     <div class="header__badge">exsplore the world</div>
                     <h2 class="header__title">
-                        Explore The Natural 
-                        Beauty Of Halmahera
-                        With Us
+                        Explore The Natural Beauty Of Halmahera With Us
                     </h2>
                     <div class="header__desc">explore the beauty of god's earth in a beautiful forest and have fun</div>
                     <div class="header__btn btn">Exsplore Now</div>
@@ -53,18 +66,26 @@
                 <div class="destinations__row">
                     <div class="destinations__content">
                         <h2 class="destinations__title">
-                            <span class="destinations__badge">Choice Of </span>
-                            Destinations
+                            <span class="destinations__badge">Choice Of </span> Destinations
                         </h2>
                         <div class="destinations__desc">explore the beauty of god's earth in a beautiful forest and have fun</div>
                         <div class="destinations__btn btn">Exsplore Now</div>
                     </div>
-                    <div class="destinations__slider slider">
-                        <div class="slider__items">
-                            <img class="slider__item" src="img/slider/slider__item-1.png" alt="slider item">
-                            <img class="slider__item active" src="img/slider/slider__item-2.png" alt="slider item">
-                            <img class="slider__item" src="img/slider/slider__item-3.png" alt="slider item">
+                    <div class="destinations__slider">
+                        <div class="slider">
+                            <div class="owl-carousel">
+                                <img class="slider__item" src="img/slider/slider__item-1.png" alt="slider item">
+                                <img class="slider__item" src="img/slider/slider__item-2.png" alt="slider item">
+                                <img class="slider__item" src="img/slider/slider__item-3.png" alt="slider item">
+                            </div>
+                            <button class="slider__btn slider__btn--prev customPrevBtn">
+                                <img src="img/slider/slider__arrow-left.svg" alt="">
+                            </button>
+                            <button class="slider__btn slider__btn--next customNextBtn">
+                                <img src="img/slider/slider__arrow-right.svg" alt="">
+                            </button>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -105,8 +126,7 @@
                 <div class="get-started__block">
                     <div class="get-started__content">
                         <h2 class="get-started__title">
-                            Prepare Yourself And
-                            Start Exploring With Us
+                            Prepare Yourself And Start Exploring With Us
                         </h2>
                         <div class="get-started__desc">There's the best discount for you today.</div>
                         <div class="get-started__btn btn">Get Started</div>
@@ -116,4 +136,5 @@
         </section>
     </main>
 </body>
+
 </html>
