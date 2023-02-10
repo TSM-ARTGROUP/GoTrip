@@ -98,12 +98,13 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
-
 .highlight-animation {
     position: relative;
     color: black;
 }
-
+.highlight-animation--footer{
+    color: var(--secondary);
+}
 .highlight-animation::after {
     content: "";
     position: absolute;
@@ -153,6 +154,9 @@ body {
     color: inherit;
 }
 
+.logo--red a{
+    color: #FF7C4E;
+}
 
 /* /logo */
 
@@ -532,3 +536,10 @@ body {
 }
 
 /* /form */
+
+/* footer */
+.footer__menu{
+    padding-bottom: 60px;
+    padding-top: 55px;
+}
+/* /footer */
