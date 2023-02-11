@@ -7,25 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пора в путишествие</title>
     <!-- STYLES -->
-    <!-- MAIN -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- OWLCAROUSEL -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+        <!-- MAIN -->
+            <link rel="stylesheet" href="./main.css">
+        <!-- OWLCAROUSEL -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"referrerpolicy="no-referrer" />
     <!-- JS -->
-    <!-- JQUARY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-    <!-- OWLCAROUSEL -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"
-        defer></script>
-    <!-- MAIN -->
-    <script src="js/main.js" defer></script>
+        <!-- JQUARY -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <!-- OWLCAROUSEL -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <!-- SLIDER -->
+            <script src="./common.blocks/slider/slider.js" defer></script>
 </head>
 
-<body>
-    <header class="header">
+<body class="page">
+    <header class="header page__header">
         <div class="container">
             <div class="header__top">
                 <nav class="nav">
@@ -40,7 +37,7 @@
                     </ul>
                     <ul class="nav__login">
                         <li><a href="#" class="highlight-animation">Sign up</a></li>
-                        <li><a href="#" class="btn">Login</a></li>
+                        <li><a href="#" class="nav__btn btn">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -60,13 +57,13 @@
         </div>
     </header>
 
-    <main>
-        <section class="destinations">
-            <div class="container__no-right ">
+    <main class="main">
+        <section class="destinations main__destinations">
+            <div class="container__no-right">
                 <div class="destinations__row">
                     <div class="destinations__content">
                         <h2 class="destinations__title">
-                            <span class="destinations__badge">Choice Of </span> Destinations
+                            <span>Choice Of</span> Destinations
                         </h2>
                         <div class="destinations__desc">explore the beauty of god's earth in a beautiful forest and have fun</div>
                         <div class="destinations__btn btn">Exsplore Now</div>
@@ -91,7 +88,7 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us main__about-us">
             <div class="container">
                 <div class="about-us__row">
                     <div class="about-us__img">
@@ -100,7 +97,7 @@
                     <div class="about-us__content">
                         <h2 class="about-us__title">What do customers say about us?</h2>
                         <div class="review">
-                            <div class="review__profile profile">
+                            <div class="profile review__profile">
                                 <div class="profile__img">
                                     <img class="profile__img-link" src="img/about-us/about-us__profile-img.png" alt="" srcset="">
                                 </div>
@@ -123,7 +120,7 @@
             </div>
         </section>
 
-        <section class="get-started">
+        <section class="get-started main__get-started">
             <div class="container">
                 <div class="get-started__block">
                     <h2 class="get-started__title">
@@ -135,14 +132,14 @@
             </div>
         </section>
 
-        <section class="subscribe">
+        <section class="subscribe main__subscribe">
             <div class="container">
                 <div class="subscribe__contant">
                     <h2 class="subscribe__title">
                         <p>Subscribe</p>
                         <p>To Our Newsletter</p>
                     </h2>
-                    <form action="" class="subscribe__form form">
+                    <form action="" class="form subscribe__form">
                         <input type="email" class="form__input" placeholder="Yourmail@mail.com">
                         <button class="form__btn btn">Subscribe</button>
                     </form>
@@ -151,7 +148,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer page__footer">
         <div class="container">
             <div class="footer__menu">
                 <nav class="nav">
@@ -159,14 +156,14 @@
                         <h2 class="logo logo--red"><a href="#">GoTrip</a></h2>
                     </div>
                     <ul class="nav__list">
-                        <li><a href="#" class="highlight-animation highlight-animation--footer">Home</a></li>
-                        <li><a href="#" class="highlight-animation highlight-animation--footer">Services</a></li>
-                        <li><a href="#" class="highlight-animation highlight-animation--footer">Pricing</a></li>
-                        <li><a href="#" class="highlight-animation highlight-animation--footer">Contact</a></li>
+                        <li><a href="#" class="highlight-animation highlight-animation--theme_gray nav__item--theme_gray">Home</a></li>
+                        <li><a href="#" class="highlight-animation highlight-animation--theme_gray nav__item--theme_gray">Services</a></li>
+                        <li><a href="#" class="highlight-animation highlight-animation--theme_gray nav__item--theme_gray">Pricing</a></li>
+                        <li><a href="#" class="highlight-animation highlight-animation--theme_gray nav__item--theme_gray">Contact</a></li>
                     </ul>
                     <ul class="nav__login">
-                        <li><a href="#" class="highlight-animation highlight-animation--footer">Sign up</a></li>
-                        <li><a href="#" class="btn">Login</a></li>
+                        <li><a href="#" class="highlight-animation highlight-animation--theme_gray  nav__item--theme_gray">Sign up</a></li>
+                        <li><a href="#" class="nav__btn btn">Login</a></li>
                     </ul>
                 </nav>
             </div>

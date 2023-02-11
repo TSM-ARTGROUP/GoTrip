@@ -1,0 +1,8 @@
+.highlight-animation--theme_gray::after{
+    background-color:rgb(68, 68, 68);
+}
+
+.highlight-animation--theme_gray.active::after,
+.highlight-animation--theme_gray:hover::after {
+    background-color: rgb(68, 68, 68);
+}

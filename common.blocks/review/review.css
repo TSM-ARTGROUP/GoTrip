@@ -1,0 +1,14 @@
+.review__profile {
+    padding-bottom: 60px;
+}
+.review__desc {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--secondary);
+    padding-bottom: 30px;
+    max-width: 491px;
+}
+
+.review__estimation {
+    display: flex;
+}

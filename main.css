@@ -1,0 +1,76 @@
+/* header */
+@import "./../common.blocks/header/header.css";
+/* highlight-animation */
+@import "./../common.blocks/highlight-animation/highlight-animation.css";
+@import "./../common.blocks/highlight-animation/highlight-animation--theme_gray.css";
+/* nav */
+@import "./../common.blocks/nav/nav.css";
+@import "./../common.blocks/nav/nav__item--theme_gray.css";
+/* logo */
+@import "./../common.blocks/logo/logo.css";
+/* btn */
+@import "./../common.blocks/btn/btn.css";
+/* destinations */
+@import "./../common.blocks/destinations/destinations.css";
+/* slider */
+@import "./../common.blocks/slider/slider.css";
+/* about-us */
+@import "./../common.blocks/about-us/about-us.css";
+/* review */
+@import "./../common.blocks/review/review.css";
+/* profile */
+@import "./../common.blocks/profile/profile.css";
+/* get-started */
+@import "./../common.blocks/get-started/get-started.css";
+/* subscribe */
+@import "./../common.blocks/subscribe/subscribe.css";
+/* form */
+@import "./../common.blocks/form/form.css";
+/* get-started */
+@import "./../common.blocks/get-started/get-started.css";
+
+
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    --container-width: 1270px;
+    --container-padding: 15px;
+    --secondary: rgba(15, 31, 28, 0.5);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+    color: #0F1F1C;
+}
+.container {
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+.container__no-right {
+    padding-left: calc( (100% - var(--container-width))/2 + var(--container-padding));
+}
+.page__header{
+    padding-top: 44px;
+}
+.main__destinations{
+    padding: 96px 0px 100px;
+}
+
+.main__about-us {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.main__get-started{
+    margin-top: 115px;
+    margin-bottom: 65px;
+}
+
+.main__subscribe {
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.page__footer{
+    padding-bottom: 60px;
+    padding-top: 55px;
+}

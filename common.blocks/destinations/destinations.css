@@ -1,0 +1,41 @@
+.destinations {
+    overflow-x: hidden;
+}
+.destinations__content {
+    max-width: 456px;
+}
+
+.destinations__title {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.destinations__title span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.destinations__desc {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--secondary);
+    margin-bottom: 60px;
+}
+
+.destinations__btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 44px;
+    border-radius: 27px;
+}
+
+.destinations__slider {
+    width: 1110px;
+    flex-shrink: 0;
+}
+
+.destinations__row {
+    display: flex;
+    column-gap: 50px;
+}

@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 12px 15px 12px 46px;
+    width: 800px;
+    height: 129px;
+    column-gap: 20px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #C4C4C4;
+    border-radius: 35px;
+}
+.form__input {
+    font-size: 24px;
+    font-weight: 500;
+
+    color: var(--secondary);
+
+}
+.form__btn {
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 35px;
+
+    padding: 34px 86px;
+}

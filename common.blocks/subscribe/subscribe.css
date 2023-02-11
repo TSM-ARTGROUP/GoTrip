@@ -1,0 +1,14 @@
+.subscribe__contant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.subscribe__title {
+    font-size: 55px;
+    font-weight: 600;
+
+    min-width: 494px;
+
+    padding-bottom: 60px;
+}

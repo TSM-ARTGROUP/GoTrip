@@ -1,0 +1,23 @@
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.profile__img {
+    width: 134px;
+    height: 134px;
+    background: #FFAA99;
+    border-radius: 71.5px;
+}
+
+.profile__name {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.profile__desc {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--secondary);
+}

@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    background: #FF7B4E;
+    color: white;
+    
+    transition-property: background, color, top;
+    transition-duration: 0.3s, 0.3s, 0.05s;
+    transition-timing-function: ease-in;
+}
+
+.btn:hover {
+    background: #ff6532;
+}
+
+.btn:active {
+    position: relative;
+    top: 2px;
+}
