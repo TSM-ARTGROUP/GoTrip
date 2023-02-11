@@ -1,33 +1,38 @@
 /* header */
-@import "./../common.blocks/header/header.css";
+@import "./../desktop.blocks/header/header.css";
 /* highlight-animation */
-@import "./../common.blocks/highlight-animation/highlight-animation.css";
-@import "./../common.blocks/highlight-animation/highlight-animation--theme_gray.css";
+@import "./../desktop.blocks/highlight-animation/highlight-animation.css";
+@import "./../desktop.blocks/highlight-animation/highlight-animation--theme_gray.css";
 /* nav */
-@import "./../common.blocks/nav/nav.css";
-@import "./../common.blocks/nav/nav__item--theme_gray.css";
+@import "./../desktop.blocks/nav/nav.css";
+@import "./../desktop.blocks/nav/nav__item--theme_gray.css";
 /* logo */
-@import "./../common.blocks/logo/logo.css";
+@import "./../desktop.blocks/logo/logo.css";
 /* btn */
-@import "./../common.blocks/btn/btn.css";
+@import "./../desktop.blocks/btn/btn.css";
+@import "./../desktop.blocks/btn/btn--nav.css";
+@import "./../desktop.blocks/btn/btn--header.css";
+@import "./../desktop.blocks/btn/btn--destinations.css";
+@import "./../desktop.blocks/btn/btn--get-started.css";
+@import "./../desktop.blocks/btn/btn--form.css";
 /* destinations */
-@import "./../common.blocks/destinations/destinations.css";
+@import "./../desktop.blocks/destinations/destinations.css";
 /* slider */
-@import "./../common.blocks/slider/slider.css";
+@import "./../desktop.blocks/slider/slider.css";
 /* about-us */
-@import "./../common.blocks/about-us/about-us.css";
+@import "./../desktop.blocks/about-us/about-us.css";
 /* review */
-@import "./../common.blocks/review/review.css";
+@import "./../desktop.blocks/review/review.css";
 /* profile */
-@import "./../common.blocks/profile/profile.css";
+@import "./../desktop.blocks/profile/profile.css";
 /* get-started */
-@import "./../common.blocks/get-started/get-started.css";
+@import "./../desktop.blocks/get-started/get-started.css";
 /* subscribe */
-@import "./../common.blocks/subscribe/subscribe.css";
+@import "./../desktop.blocks/subscribe/subscribe.css";
 /* form */
-@import "./../common.blocks/form/form.css";
+@import "./../desktop.blocks/form/form.css";
 /* get-started */
-@import "./../common.blocks/get-started/get-started.css";
+@import "./../desktop.blocks/get-started/get-started.css";
 
 
 @import "./reset.css";

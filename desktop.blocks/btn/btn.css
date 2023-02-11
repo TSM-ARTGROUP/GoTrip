@@ -3,6 +3,8 @@
     background: #FF7B4E;
     color: white;
     
+    border-radius: 100px;
+
     transition-property: background, color, top;
     transition-duration: 0.3s, 0.3s, 0.05s;
     transition-timing-function: ease-in;
