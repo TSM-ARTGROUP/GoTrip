@@ -1,5 +1,5 @@
 .header {
-    z-index: 1;
+    z-index: 1000;
     overflow: hidden;
     position: relative;
     min-height: 940px;
@@ -41,13 +41,29 @@
     z-index: -1;
 }
 
+.header__img::after {
+    content: "";
+
+    position: absolute;
+    top: 21px;
+    right: -90px;
+
+    width: 830px;
+    height: 622px;
+
+    background-image: url("../../img/header/header_elements.svg");
+}
+
 .header__img img {
     position: absolute;
     top: -160px;
     right: -150px;
+
     max-width: unset;
-    width: 898px;
-    height: 1123px;
+    width: 894px;
+    height: 949px;
+
+    pointer-events: none;
 }
 
 .header__badge {
