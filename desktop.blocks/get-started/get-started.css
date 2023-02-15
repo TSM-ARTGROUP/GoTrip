@@ -24,13 +24,13 @@
     top: 74px;
     right: 80px;
 
-    background-image: url("./../img/get-started/get-started__img-right.svg");
+    background-image: url("../../img/get-started/get-started__img-right.svg");
 }
 .get-started__block::before{
     left: 74px;
     bottom: 56px;
 
-    background-image: url("./../img/get-started/get-started__img-left.svg");
+    background-image: url("../../img/get-started/get-started__img-left.svg");
 }
 .get-started__title {
     font-size: 45px;
