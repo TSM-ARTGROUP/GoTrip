@@ -80,9 +80,6 @@ body {
     padding-bottom: 60px;
     padding-top: 55px;
 }
-.burger-menu{
-    display: none;
-}
 /* media */
 @media(max-width: 1270px){
     .container__no-right{
@@ -101,6 +98,6 @@ body {
         display: block;
     }
     .burger-menu{
-        display: block;
+        display: block!important;
     }
 }

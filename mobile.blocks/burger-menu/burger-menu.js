@@ -70,4 +70,8 @@ $(document).ready(function(){
 		$(this).toggleClass("open");
 	});
 
+	$('.burger-menu').css({
+		'display': 'none'
+	});
+
 });
